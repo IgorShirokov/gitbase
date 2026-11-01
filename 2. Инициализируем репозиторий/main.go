@@ -34,11 +34,11 @@ func main() {
 }
 
 func usage() {
-	fmt.Fprintln(os.Stderr, "использование: gitbase init")
+	fmt.Fprintln(os.Stderr, "use: gitbase init")
 }
 
 func fatal(err error) {
-	fmt.Fprintln(os.Stderr, "ошибка:", err)
+	fmt.Fprintln(os.Stderr, "error:", err)
 	os.Exit(1)
 }
 
