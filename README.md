@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/readme-banner.svg" alt="gitbase — учебная система контроля версий на Go: 22 урока, 6 команд" width="100%">
+  <img src="docs/assets/readme-banner.svg" alt="gitbase — учебная система контроля версий на Go: 20 уроков, 6 команд" width="100%">
 </p>
 
 <h1 align="center">Git на Go: пишем свою систему контроля версий</h1>

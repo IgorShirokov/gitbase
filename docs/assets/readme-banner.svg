@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" fill="none">
   <title>gitbase — Git на Go</title>
-  <desc>Учебная система контроля версий. 22 урока, шесть команд, Go 1.24 и стандартная библиотека. Схема показывает основную ветку и отдельную ветку feature без слияния.</desc>
+  <desc>Учебная система контроля версий. 20 уроков, шесть команд, Go 1.24 и стандартная библиотека. Схема показывает основную ветку и отдельную ветку feature без слияния.</desc>
   <rect width="1600" height="480" rx="24" fill="#111820"/>
   <g stroke="#29404A" stroke-width="2" opacity="0.5">
     <path d="M0 80H180L220 120H340M1240 40H1440L1480 80H1600M0 410H110L150 450H350M1300 440H1460L1500 400H1600"/>
@@ -17,7 +17,7 @@
       <rect x="100" y="342" width="150" height="46" rx="12" fill="#16232C" stroke="#29404A"/>
       <text x="175" y="372" fill="#62DFC5">Go 1.24+</text>
       <rect x="266" y="342" width="150" height="46" rx="12" fill="#16232C" stroke="#29404A"/>
-      <text x="341" y="372" fill="#EDF4F5">22 урока</text>
+      <text x="341" y="372" fill="#EDF4F5">20 уроков</text>
       <rect x="432" y="342" width="150" height="46" rx="12" fill="#16232C" stroke="#29404A"/>
       <text x="507" y="372" fill="#EDF4F5">6 команд</text>
     </g>
