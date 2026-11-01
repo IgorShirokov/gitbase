@@ -12,7 +12,7 @@
 <p align="center">
   <a href="#course">Программа курса</a> ·
   <a href="#setup">Подготовка</a> ·
-  <a href="#demo">Запустить gitbase</a> ·
+  <a href="#demo">Запустить gitbase</a>
 </p>
 
 ---
