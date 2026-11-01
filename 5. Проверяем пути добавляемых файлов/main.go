@@ -33,25 +33,25 @@ func main() {
 		}
 		fmt.Println("инициализирован .gitbase")
 
-		// hash, err := putBlob(root, []byte("hello"))
-		// if err != nil {
-		// 	fatal(err)
-		// }
-		// entries := []indexEntry{
-		// 	{Path: "z.txt", BlobHash: hash},
-		// 	{Path: "a.txt", BlobHash: hash},
-		// }
-		// if err := saveIndex(root, entries); err != nil {
-		// 	fatal(err)
-		// }
-		// loaded, err := readIndex(root)
-		// if err != nil {
-		// 	fatal(err)
-		// }
+		hash, err := putBlob(root, []byte("hello"))
+		if err != nil {
+			fatal(err)
+		}
+		entries := []indexEntry{
+			{Path: "z.txt", BlobHash: hash},
+			{Path: "a.txt", BlobHash: hash},
+		}
+		if err := saveIndex(root, entries); err != nil {
+			fatal(err)
+		}
+		loaded, err := readIndex(root)
+		if err != nil {
+			fatal(err)
+		}
 
-		// for _, entry := range loaded {
-		// 	fmt.Println(entry.Path, entry.BlobHash)
-		// }
+		for _, entry := range loaded {
+			fmt.Println(entry.Path, entry.BlobHash)
+		}
 
 	default:
 		usage()
