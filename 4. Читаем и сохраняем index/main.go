@@ -30,7 +30,7 @@ func main() {
 		if err := initRepository(root); err != nil {
 			fatal(err)
 		}
-		fmt.Println("инициализирован .gitbase")
+		fmt.Println(".gitbase initialized")
 
 		hash, err := putBlob(root, []byte("hello"))
 		if err != nil {
